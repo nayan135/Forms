@@ -1,0 +1,61 @@
+<!Doctype html >
+<html lang="en">
+<head>
+    <title>
+        Registration Form
+    </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    
+    <form action="submit.html" method="get" autocomplete="off">
+        <p class="edit">Registration Form</p>
+        <div>
+        <label for="USERNAME">USERNAME</label>
+        <input type="text" id="USERNAME">
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input type="email" id="email">
+    </div>
+    <div>
+        <label for="password">Password</label>
+       <input type="password" id="password">
+    </div>
+    <div>
+        <label for="cont">Contact</label>
+       <input type="tel" id="cont">
+    </div>
+    <div>
+        <label for="dob">DATE OF BIRTH</label>
+        <input type="date" id="dob">
+    </div>
+    <div>
+    GENDER:<br>
+    <div class="g">
+       
+        <input type="radio" id="male" class="g" name="g" />
+        <label for="male">MALE</label>
+        <input type="radio" id="female" class="g" name="g" />
+        <label for="female">FEMALE</label>
+        <input type="radio" id="others" class="g" name="g" />
+        <label for="others">OTHERS</label>
+    </div>
+</div>
+    <div>
+    <input type="checkbox" id="checkbox" >
+        <label for="checkbox" class="warn">
+    <strong> The information given above is correct.</label> </strong>
+        </div>
+    <div >
+        
+        <input type="submit" class="button2" value="REGISTER" id="r"> 
+        <input type="reset" class="butoon2" value="RESET" id="r">
+    </div>
+</form>
+<script src="script.js"></script>
+    </body>
+    </html>
